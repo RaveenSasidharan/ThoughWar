@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:layout_marginLeft="@dimen/margin_view_normal"
+    android:layout_marginRight="@dimen/margin_view_normal"
+    android:layout_marginTop="@dimen/margin_view_large">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/king_pic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="@dimen/margin_view_normal"
+            android:background="@drawable/background_circle"/>
+
+        <com.example.thoughwar.view.custom.FontTextView
+            android:id="@+id/king_name"
+            android:layout_toLeftOf="@+id/king_pic"
+            android:layout_marginLeft="@dimen/margin_view_medium"
+            android:layout_marginTop="@dimen/margin_view_normal"
+            android:layout_marginRight="@dimen/margin_view_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/text_size_large"
+            app:customFont="@string/cuprum_bold"/>
+
+        <View
+            android:id="@+id/divider_line"
+            android:layout_below="@+id/king_pic"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height"
+            android:layout_marginTop="@dimen/margin_view_small"
+            android:background="@color/colorGray"/>
+
+        <com.example.thoughwar.view.custom.FontTextView
+            android:id="@+id/rate_text"
+            android:layout_below="@+id/divider_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/margin_view_normal"
+            android:layout_marginBottom="@dimen/margin_view_small"
+            android:textColor="@color/colorGray"
+            android:textSize="@dimen/text_size_small"
+            app:customFont="@string/cuprum_regular"
+            />
+
+        <com.example.thoughwar.view.custom.FontTextView
+            android:id="@+id/battle_strength"
+            android:layout_below="@+id/divider_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/margin_view_normal"
+            android:layout_marginBottom="@dimen/margin_view_small"
+            android:textColor="@color/colorGray"
+            android:textSize="@dimen/text_size_small"
+            app:customFont="@string/cuprum_regular"
+            />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

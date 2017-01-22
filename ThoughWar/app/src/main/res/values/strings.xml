@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ThoughWar</string>
+
+    <!--view titles-->
+    <string name="rating_text">Highest Rating</string>
+    <string name="battle_strength_text">Battle Strength</string>
+    <string name="battle_won_text">Battles Won</string>
+    <string name="battle_lost_text">Battle Lost</string>
+    <string name="strength">Strength</string>
+    <string name="strength_type">Strength in Battle Type</string>
+    <string name="back">Back</string>
+    <string name="search_text">Search(By Name,Battle Strength)</string>
+
+
+    <!--custom font-->
+    <string name="cuprum_regular">Cuprum-Regular.ttf</string>
+    <string name="cuprum_bold">Cuprum-Bold.ttf</string>
+</resources>
